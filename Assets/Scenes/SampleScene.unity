@@ -152,8 +152,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c86c229a98c57644b10559da654ce72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _width: 15
-  _height: 9
+  _width: 8
+  _height: 8
   _tile1: {fileID: 2206571279579002224, guid: c89aafedf70e906499573312e342164e, type: 3}
   _tile2: {fileID: 2206571279579002224, guid: 692cc31fe9ca5fb49bc692e9c4121b20, type: 3}
   _cam: {fileID: 519420032}

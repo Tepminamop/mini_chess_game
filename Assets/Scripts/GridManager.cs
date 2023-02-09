@@ -20,8 +20,10 @@ public class GridManager : MonoBehaviour
             for (int y = 0; y < _height; y++)
             {
                 bool isOffset = (x % 2 == 0 && y % 2 != 0) || (x % 2 != 0 && y % 2 == 0);
-                var _spawnedTile = isOffset == true ? Instantiate(_tile1, new Vector3(x, y), Quaternion.identity) : Instantiate(_tile2, new Vector3(x, y), Quaternion.identity);
+                var _spawnedTile = isOffset == true ? Instantiate(_tile2, new Vector3(x, y), Quaternion.identity) : Instantiate(_tile1, new Vector3(x, y), Quaternion.identity);
                 _spawnedTile.name = $"Title {x} {y}";
+                _spawnedTile._XCoordinate = x;
+                _spawnedTile._YCoordinate = y;
             }
         }
 
